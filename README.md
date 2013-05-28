@@ -12,8 +12,8 @@ Output: physical addresses of the function pointers and system call table specif
 
 Usage
 ---------
-  ./signa [memory snapshot] [system.map]
+    ./signa [memory snapshot] [system.map]
 
 example:
-  ./signa  ~/qemu/mem-2.6.28a  ~/data_layout/system.map/System.map-2.6.28 > 2.6.28
+    ./signa  ~/qemu/mem-2.6.28a  ~/data_layout/system.map/System.map-2.6.28 > 2.6.28
 
